@@ -8,7 +8,9 @@
     "PlayerEntityMixin"
   ],
   "client": [
-    "client.PlayerModelMixin"
+    "client.PlayerModelMixin",
+    "client.BabyDiaperRenderer",
+    "client.BabyHeadScaleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
