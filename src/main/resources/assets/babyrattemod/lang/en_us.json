@@ -1,6 +1,8 @@
 {
   "item.babyrattemod.baby_rattle": "Baby Rattle",
   "key.babyrattemod.transform": "Transform with Baby Rattle",
+  "key.babyrattemod.burp": "Make Baby Burp",
+  "key.babyrattemod.feed": "Feed Baby",
   "category.babyrattemod": "Baby Rattle Mod",
   "death.attack.baby_protection": "%s tried to hurt a baby and paid the price!"
 }

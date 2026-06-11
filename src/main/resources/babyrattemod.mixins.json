@@ -10,7 +10,9 @@
   "client": [
     "client.PlayerModelMixin",
     "client.BabyDiaperRenderer",
-    "client.BabyHeadScaleMixin"
+    "client.BabyHeadScaleMixin",
+    "client.BabyCrawlingMixin",
+    "client.BabyCrawlHeightMixin"
   ],
   "injectors": {
     "defaultRequire": 1

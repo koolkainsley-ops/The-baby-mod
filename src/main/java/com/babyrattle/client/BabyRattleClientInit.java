@@ -11,6 +11,8 @@ import com.babyrattle.network.BabyModNetworking;
 
 public class BabyRattleClientInit implements ClientModInitializer {
 	public static KeyBinding transformKey;
+	public static KeyBinding burpKey;
+	public static KeyBinding feedKey;
 
 	@Override
 	public void onInitializeClient() {
@@ -21,9 +23,29 @@ public class BabyRattleClientInit implements ClientModInitializer {
 			"category.babyrattemod"
 		));
 
+		burpKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
+			"key.babyrattemod.burp",
+			InputUtil.Type.KEYSYM,
+			GLFW.GLFW_KEY_B,
+			"category.babyrattemod"
+		));
+
+		feedKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
+			"key.babyrattemod.feed",
+			InputUtil.Type.KEYSYM,
+			GLFW.GLFW_KEY_F,
+			"category.babyrattemod"
+		));
+
 		ClientTickEvents.END_CLIENT_TICK.register(client -> {
 			if (transformKey.wasPressed()) {
 				BabyModNetworking.sendTransformRequest();
+			}
+			if (burpKey.wasPressed()) {
+				BabyModNetworking.sendBurpRequest();
+			}
+			if (feedKey.wasPressed()) {
+				BabyModNetworking.sendFeedRequest();
 			}
 		});
 	}
