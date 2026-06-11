@@ -1,8 +1,15 @@
 {
   "item.babyrattemod.baby_rattle": "Baby Rattle",
+  "item.babyrattemod.baby_bottle": "Baby Bottle",
+  "item.babyrattemod.pacifier": "Pacifier",
+  "item.babyrattemod.teddy_bear": "Teddy Bear",
+  "item.babyrattemod.diaper": "Diaper",
+  "item.babyrattemod.milk_bucket": "Milk Bucket",
+  "item.babyrattemod.rattle_toy": "Rattle Toy",
   "key.babyrattemod.transform": "Transform with Baby Rattle",
   "key.babyrattemod.burp": "Make Baby Burp",
   "key.babyrattemod.feed": "Feed Baby",
+  "key.babyrattemod.weapon_gui": "Open Baby Weapon GUI",
   "category.babyrattemod": "Baby Rattle Mod",
   "death.attack.baby_protection": "%s tried to hurt a baby and paid the price!"
 }
