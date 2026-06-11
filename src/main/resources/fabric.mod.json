@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "babyrattemod",
+  "version": "${version}",
+  "name": "Baby Rattle Mod",
+  "description": "A fun mod that lets you transform into a baby with a rattle!",
+  "authors": [
+    "koolkainsley-ops"
+  ],
+  "contact": {
+    "homepage": "https://github.com/koolkainsley-ops/The-baby-mod",
+    "sources": "https://github.com/koolkainsley-ops/The-baby-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/babyrattemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.babyrattle.BabyRattleModInit"
+    ],
+    "client": [
+      "com.babyrattle.client.BabyRattleClientInit"
+    ]
+  },
+  "mixins": [
+    "babyrattemod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=${minecraft_version}",
+    "java": ">=${java_version}",
+    "fabric-api": "*"
+  }
+}

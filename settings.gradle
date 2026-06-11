@@ -1,0 +1,16 @@
+pluginManagement {
+	repositories {
+		gradleBuild {
+			name = 'Fabric'
+			url = 'https://maven.fabricmc.net/'
+		}
+		gradleBuild {
+			name = 'Maven Central'
+			url = 'https://repo1.maven.org/maven2'
+		}
+		gradleBuild {
+			name = 'Gradle Plugins'
+			url = 'https://plugins.gradle.org'
+		}
+	}
+}
